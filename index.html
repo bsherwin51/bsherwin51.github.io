@@ -177,12 +177,20 @@
 						<article id="community">
 							<h2 class="major">Community</h2>
 							<span class="image main">
-							  <img src="images/LN2.jpeg" alt=""/>
+							  <img src="images/LN2.jpeg" alt="LN2"/>
 							</span>
+							
+							<!-- CSS -->
 							<style>
+							  .image.main {
+							    display: flex;           /* use flexbox */
+							    justify-content: center; /* center horizontally */
+							  }
+							
 							  .image.main img {
-							    width: 50%;   /* scales relative to container */
-							    height: 50%; /* keeps aspect ratio */
+							    width: 50%;   /* set size (relative to container width) */
+							    height: 50%; /* keep aspect ratio */
+							    display: block;
 							  }
 							</style>
 							<p>
@@ -279,6 +287,7 @@
 
 	</body>
 </html>
+
 
 
 
